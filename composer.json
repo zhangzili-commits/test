@@ -1,0 +1,22 @@
+{
+    "name": "zhangzili-commits/test",
+    "description": "try a test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhangzili",
+            "email": "zhangzili@hoge.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Flower\\Rose\\": "src/Flower/Rose",
+      "Flower\\Lily\\": "src/Flower/Lily"
+    }
+  }
+}
